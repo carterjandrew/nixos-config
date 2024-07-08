@@ -100,6 +100,7 @@ in {
       gimp
       digikam
       libsForQt5.bismuth
+      libsForQt5.ghostwriter
       kdePackages.plasma-sdk
       github-copilot-cli
     ];

@@ -1,10 +1,9 @@
 {
   config,
   pkgs,
+  userConfig,
   ...
-}: let
-  userConfig = import ./user-config.nix;
-in {
+}: {
   imports = [
     <home-manager/nixos>
   ];

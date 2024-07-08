@@ -66,5 +66,5 @@ sudo cp .configuration.nix /ect/nixos/configuration.nix
 ./scripts/rebuild
 ```
 Report any issues you have in the [issues tab](https://github.com/carterjandrew/nixos-config/issues) of this github and I'll do my best to address them.   
-# How to use your setup
+# How to use this setup
 **TODO**

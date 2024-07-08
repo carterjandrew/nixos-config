@@ -4,12 +4,12 @@
   ...
 }: let
   dotfiles = /home/carter/nixos-config;
-  cardiConfigImport = import "${dotfiles}/config.nix";
+  configImport = import "${dotfiles}/config.nix";
 in {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    cardiConfigImport
+    configImport
   ];
 
   # This value determines the NixOS release from which the default

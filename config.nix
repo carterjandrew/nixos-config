@@ -165,6 +165,7 @@
         dark = "/home/${userConfig.mainUserName}/nixos-config/scripts/darkmode.sh";
         rebuild = "/home/${userConfig.mainUserName}/nixos-config/scripts/rebuild";
         repos = "gh repo list --no-archived";
+        sail = "./vendor/bin/sail";
       };
       oh-my-zsh = {
         enable = true;

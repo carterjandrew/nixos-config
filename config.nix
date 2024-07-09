@@ -8,6 +8,9 @@
     <home-manager/nixos>
   ];
 
+  # Select linux kernel
+  boot.kernelPackages = pkgs.linuxPackages_zen;
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 

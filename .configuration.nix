@@ -4,7 +4,7 @@
   ...
 }: let
   userConfig = import ./user-config.nix;
-  configImport = import "/home/${userConfig.mainUserName}/nixos-config/config.nix" { inherit config pkgs userConfig; };
+  configImport = import "/home/${userConfig.mainUserName}/nixos-config/config.nix" {inherit config pkgs userConfig;};
 in {
   imports = [
     # Include the results of the hardware scan.

@@ -107,6 +107,7 @@
       libsForQt5.ghostwriter
       kdePackages.plasma-sdk
       github-copilot-cli
+      qemu
     ];
   };
 

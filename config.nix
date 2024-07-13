@@ -101,6 +101,7 @@
       calibre
       obs-studio
       obsidian
+      blender
       gimp
       digikam
       libsForQt5.bismuth

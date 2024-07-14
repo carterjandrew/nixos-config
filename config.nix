@@ -80,6 +80,7 @@
       dig
       git-lfs
       netcat
+      ripgrep
       fzf
       unzip
       firefox

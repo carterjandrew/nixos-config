@@ -133,6 +133,12 @@
       };
     };
 
+    programs.neovim = {
+      defaultEditor = true;
+      viAlias = true;
+      vimAlias = true;
+    };
+
     programs.vscode = {
       enable = true;
       extensions = with pkgs.vscode-extensions; [
@@ -176,7 +182,6 @@
         repos = "gh repo list --no-archived";
 
         # Neovim and notetaking related
-        vim = "nvim";
         # Laravel exclusive
         sail = "./vendor/bin/sail";
       };

@@ -167,10 +167,17 @@
 
       shellAliases = {
         size = "du -sh";
+
         light = "/home/${userConfig.mainUserName}/nixos-config/scripts/lightmode.sh";
         dark = "/home/${userConfig.mainUserName}/nixos-config/scripts/darkmode.sh";
+
         rebuild = "/home/${userConfig.mainUserName}/nixos-config/scripts/rebuild";
+
         repos = "gh repo list --no-archived";
+
+        # Neovim and notetaking related
+        vim = "nvim";
+        # Laravel exclusive
         sail = "./vendor/bin/sail";
       };
       oh-my-zsh = {

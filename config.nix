@@ -177,13 +177,12 @@
 
       shellAliases = {
         size = "du -sh";
-
         light = "/home/${userConfig.mainUserName}/nixos-config/scripts/lightmode.sh";
         dark = "/home/${userConfig.mainUserName}/nixos-config/scripts/darkmode.sh";
-
         rebuild = "/home/${userConfig.mainUserName}/nixos-config/scripts/rebuild";
-
         repos = "gh repo list --no-archived";
+        open = "Dolphin";
+        oo = "pushd ~/personaldocs/flat";
 
         # Neovim and notetaking related
         # Laravel exclusive

@@ -106,6 +106,7 @@
       digikam
       libsForQt5.bismuth
       libsForQt5.ghostwriter
+      libsForQt5.plasma-sdk
       kdePackages.plasma-sdk
       github-copilot-cli
       qemu

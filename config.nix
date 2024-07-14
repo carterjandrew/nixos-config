@@ -137,6 +137,10 @@
       defaultEditor = true;
       viAlias = true;
       vimAlias = true;
+      extraConfig = ''
+        vim.opt.runtimepath:append { '/home/carter/nvim' }
+        lua require('init')
+      '';
     };
 
     programs.vscode = {

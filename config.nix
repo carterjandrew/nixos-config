@@ -83,6 +83,7 @@
       ripgrep
       fzf
       unzip
+      gcc
       firefox
       kate
       qbittorrent

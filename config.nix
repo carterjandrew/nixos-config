@@ -74,6 +74,7 @@
     packages = with pkgs; [
       nixpkgs-fmt
       wget
+      xclip
       tree
       alejandra
       tmux

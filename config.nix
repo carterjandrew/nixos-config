@@ -185,7 +185,7 @@
         rebuild = "/home/${userConfig.mainUserName}/nixos-config/scripts/rebuild";
         repos = "gh repo list --no-archived";
         open = "Dolphin";
-        oo = "pushd ~/personaldocs/flat";
+        oo = "cd ~/personaldocs/notes";
 
         # Neovim and notetaking related
         # Laravel exclusive

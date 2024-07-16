@@ -93,6 +93,7 @@
       vscode
       docker
       nodejs_20
+      esbuild
       yarn
       conda
       discord

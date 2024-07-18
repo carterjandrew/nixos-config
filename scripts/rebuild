@@ -2,6 +2,7 @@
 set -e
 pushd ~/nixos-config/
 nvim config.nix
+nvim home.nix
 alejandra . &>/dev/null
 git diff -U0 *.nix
 echo "NixOS Rebuilding..."

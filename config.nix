@@ -4,13 +4,12 @@
   userConfig,
   ...
 }: let
-		homePath = toString ./home.nix;
-		homeImport = import homePath {inherit config pkgs userConfig;};
-
+  homePath = toString ./home.nix;
+  homeImport = import homePath {inherit config pkgs userConfig;};
 in {
   imports = [
-		homeImport
-  ]; 
+    homeImport
+  ];
   # Select linux kernel
   boot.kernelPackages = pkgs.linuxPackages_zen;
 
@@ -121,7 +120,6 @@ in {
       qemu
     ];
   };
-
 
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"

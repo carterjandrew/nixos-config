@@ -1,18 +1,21 @@
-{ config, pkgs, userConfig, ... }: 
-let
+{
+  config,
+  pkgs,
+  userConfig,
+  ...
+}: let
   home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz";
 in {
   imports = [
-	(import "${home-manager}/nixos")
+    (import "${home-manager}/nixos")
   ];
   home-manager.useGlobalPkgs = true;
 
-  home-manager.users.${userConfig.mainUserName} = {pkgs, ...}:
-  let 
+  home-manager.users.${userConfig.mainUserName} = {pkgs, ...}: let
     plasma-manager = builtins.fetchTarball "https://github.com/nix-community/plasma-manager/archive/trunk.tar.gz";
   in {
     imports = [
-	  (import "${plasma-manager}/modules")
+      (import "${plasma-manager}/modules")
     ];
 
     programs.git = {

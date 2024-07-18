@@ -887,6 +887,8 @@
       "krunnerrc"."Plugins"."webshortcutsEnabled" = false;
       "krunnerrc"."Plugins"."windowsEnabled" = false;
       "kscreenlockerrc"."Daemon"."Autolock" = false;
+      "ksplashrc"."KSplash"."Engine" = "none";
+      "ksplashrc"."KSplash"."Theme" = "None";
       "kwalletrc"."Wallet"."First Use" = false;
       "kwinrc"."Desktops"."Id_1" = "fece9ddd-0cc1-4059-9768-4cfe5d0c9373";
       "kwinrc"."Desktops"."Id_2" = "725e1e75-4884-495b-8557-188b2acb3948";
@@ -910,12 +912,16 @@
       "kwinrc"."Script-bismuth"."screenGapTop" = 5;
       "kwinrc"."Script-bismuth"."tileLayoutGap" = 5;
       "kwinrc"."Tiling"."padding" = 4;
+      "kwinrc"."Tiling/155df652-5e5f-5bd9-83db-37c13f059ed3"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Tiling/213a9620-187e-58a6-b80b-85d8fb95dfce"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
+      "kwinrc"."Tiling/d683cea4-7ad3-51c3-b586-2685086ebc59"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Windows"."RollOverDesktops" = true;
       "kwinrc"."org.kde.kdecoration2"."BorderSize" = "Tiny";
       "kwinrc"."org.kde.kdecoration2"."BorderSizeAuto" = false;
       "plasma-localerc"."Formats"."LANG" = "en_US.UTF-8";
+      "plasmanotifyrc"."Applications/discord"."Seen" = true;
       "plasmanotifyrc"."Applications/firefox"."Seen" = true;
+      "plasmanotifyrc"."Applications/slack"."Seen" = true;
     };
   };
 }

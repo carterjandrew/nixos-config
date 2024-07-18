@@ -113,6 +113,7 @@
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk
       kdePackages.plasma-sdk
+      libsForQt5.kcolorchooser
       github-copilot-cli
       qemu
     ];

@@ -104,7 +104,6 @@ in {
       spotify
       awscli2
       aws-sam-cli
-      libreoffice
       calibre
       obs-studio
       obsidian

@@ -76,6 +76,7 @@ in {
     packages = with pkgs; [
       nixpkgs-fmt
       wget
+      bat
       deno
       xclip
       tree

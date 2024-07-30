@@ -67,6 +67,9 @@ in {
   # Make sure we got zsh on the system
   programs.zsh.enable = true;
 
+  users.users.nixosvmtest.isNormalUser = true;
+  users.users.nixosvmtest.initialPassword = "test";
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.${userConfig.mainUserName} = {
     isNormalUser = true;

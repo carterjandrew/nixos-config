@@ -116,6 +116,7 @@ in {
       digikam
       libsForQt5.bismuth
       libsForQt5.akonadi
+      libsForQt5.akonadi-calendar
       libsForQt5.korganizer
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk

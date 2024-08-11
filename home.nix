@@ -113,6 +113,19 @@ in {
       import = [
         "~/themes/themes/gruvbox_dark.toml"
       ];
+      keyboard.bindings = [
+        {
+          key = "N";
+          mods = "Control";
+          command = {
+            program = "alacritty";
+            args = [
+              "--working-directory"
+              "."
+            ];
+          };
+        }
+      ];
     };
     programs.tmux = {
       enable = true;

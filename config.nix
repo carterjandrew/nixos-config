@@ -167,10 +167,18 @@ in {
   };
 
   # Open ports in the firewall.
-  networking.firewall.allowedTCPPorts = [22];
+  networking.firewall.allowedTCPPorts = [
+    22
+    19000
+    19001
+    19002
+  ];
+  networking.firewall.allowedUDPPorts = [
+    19000
+  ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+  networking.firewall.enable = false;
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;

@@ -114,6 +114,7 @@ in {
       blender
       gimp
       digikam
+      libreoffice
       libsForQt5.bismuth
       libsForQt5.akonadi
       libsForQt5.akonadi-calendar

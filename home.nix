@@ -80,6 +80,7 @@ in {
         repos = "gh repo list --no-archived";
         open = "Dolphin";
         oo = "cd ~/personaldocs/notes";
+        new = "alacritty --working-directory=. &";
 
         # Neovim and notetaking related
         # Laravel exclusive

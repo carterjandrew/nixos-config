@@ -102,7 +102,6 @@ in {
       esbuild
       yarn
       which
-      micromamba
       discord
       slack
       zoom-us

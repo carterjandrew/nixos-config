@@ -101,7 +101,8 @@ in {
       nodejs_20
       esbuild
       yarn
-      conda
+      which
+      micromamba
       discord
       slack
       zoom-us

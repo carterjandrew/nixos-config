@@ -116,6 +116,7 @@ in {
       digikam
       libreoffice
       libsForQt5.bismuth
+      mariadb
       libsForQt5.akonadi
       libsForQt5.akonadi-calendar
       libsForQt5.korganizer

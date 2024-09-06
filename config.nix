@@ -126,6 +126,7 @@ in {
       libsForQt5.akonadi-calendar
       libsForQt5.akonadi-import-wizard
       libsForQt5.akonadi-calendar-tools
+      libsForQt5.kdepim-runtime
       libsForQt5.korganizer
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk

@@ -123,6 +123,7 @@ in {
       libsForQt5.kcolorchooser
       github-copilot-cli
       qemu
+      mariadb
     ];
   };
 
@@ -138,7 +139,6 @@ in {
     neovim
     git
     gh
-    mariadb
     libsForQt5.akonadi
     libsForQt5.akonadi-mime
     libsForQt5.akonadi-notes

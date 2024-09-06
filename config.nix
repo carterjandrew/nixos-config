@@ -116,7 +116,6 @@ in {
       digikam
       libreoffice
       libsForQt5.bismuth
-      mariadb
       libsForQt5.korganizer
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk
@@ -139,6 +138,7 @@ in {
     neovim
     git
     gh
+    mariadb
     libsForQt5.akonadi
     libsForQt5.akonadi-mime
     libsForQt5.akonadi-notes

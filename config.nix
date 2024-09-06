@@ -118,7 +118,14 @@ in {
       libsForQt5.bismuth
       mariadb
       libsForQt5.akonadi
+      libsForQt5.akonadi-mime
+      libsForQt5.akonadi-notes
+      libsForQt5.akonadiconsole
+      libsForQt5.akonadi-search
+      libsForQt5.akonadi-contacts
       libsForQt5.akonadi-calendar
+      libsForQt5.akonadi-import-wizard
+      libsForQt5.akonadi-calendar-tools
       libsForQt5.korganizer
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk

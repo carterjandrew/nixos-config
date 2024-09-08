@@ -116,7 +116,7 @@ in {
       digikam
       libreoffice
       libsForQt5.bismuth
-      libsForQt5.korganizer
+      libsForQt5.merkuro
       libsForQt5.ghostwriter
       libsForQt5.plasma-sdk
       kdePackages.plasma-sdk

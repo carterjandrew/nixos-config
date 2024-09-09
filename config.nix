@@ -110,6 +110,7 @@ in {
       aws-sam-cli
       calibre
       obs-studio
+      vlc
       obsidian
       blender
       gimp

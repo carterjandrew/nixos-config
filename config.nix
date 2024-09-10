@@ -106,6 +106,7 @@ in {
       slack
       zoom-us
       spotify
+      cmus
       awscli2
       aws-sam-cli
       calibre

@@ -86,6 +86,7 @@ in {
       alejandra
       tmux
       dig
+      lazygit
       git-lfs
       netcat
       ripgrep

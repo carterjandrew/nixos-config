@@ -89,6 +89,7 @@ in {
       dig
       lazygit
       git-lfs
+      gtop
       netcat
       ripgrep
       fzf

@@ -77,6 +77,7 @@ in {
     extraGroups = ["networkmanager" "wheel" "docker"];
     shell = pkgs.zsh;
     packages = with pkgs; [
+      zip
       nixpkgs-fmt
       wget
       bat

@@ -113,6 +113,7 @@ in {
       awscli2
       aws-sam-cli
       calibre
+      conda
       obs-studio
       vlc
       obsidian

@@ -114,6 +114,7 @@ in {
       aws-sam-cli
       calibre
       conda
+      google-cloud-sdk
       obs-studio
       vlc
       obsidian

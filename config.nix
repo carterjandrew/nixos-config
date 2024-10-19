@@ -129,6 +129,8 @@ in {
       kdePackages.plasma-sdk
       libsForQt5.kcolorchooser
       github-copilot-cli
+      rustc
+      cargo
       qemu
       mariadb
     ];
@@ -140,6 +142,10 @@ in {
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  networking.extraHosts = ''
+    127.0.0.1 youtube.com www.youtube.com
+  '';
 
   environment.systemPackages = with pkgs; [
     vim

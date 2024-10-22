@@ -143,9 +143,9 @@ in {
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  networking.extraHosts = ''
-    127.0.0.1 youtube.com www.youtube.com
-  '';
+  #networking.extraHosts = ''
+  #127.0.0.1 youtube.com www.youtube.com
+  #'';
 
   environment.systemPackages = with pkgs; [
     vim
